@@ -101,7 +101,7 @@ void newtonMethod(double a, double b, double epsilon) {
 
         x_old = x_new;
         steps++;
-        if (steps > 100) break; // Tránh vòng lặp vô tận
+        if (steps > 100) break; 
     }
 
     cout << "------+---------------+---------------+--------------- \n";
